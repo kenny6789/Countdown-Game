@@ -20,7 +20,7 @@ namespace Countdown_Game
         List<string> consonants = new List<string>();
         Dictionary<string, int> dict = new Dictionary<string, int>();
 
-        private int MAX_ROUND = 4;
+        private const int MAX_ROUND = 4;
         private string vowelPatten = "[aeiou]";
         private string dictionary = @"C:\Users\OEM\Desktop\C# Projects\Dictionary.txt";
         private string anagramList = @"C:\Users\OEM\Desktop\C# Projects\anagram.txt";
